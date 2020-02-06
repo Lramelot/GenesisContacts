@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GenesisContacts.Data\GenesisContacts.Data.csproj" />
+    <ProjectReference Include="..\GenesisContacts.Domain\GenesisContacts.Core.csproj" />
+  </ItemGroup>
+
+</Project>
